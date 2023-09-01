@@ -20,6 +20,44 @@ footer {
 .footer-section-1 {
     height: 60%;
     background-color: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-sec-1-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
+.foot-sec-1-container h2 {
+    color: #ffffff;
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: -0.04px;
+}
+.foot-sec-icons a {
+    text-align: center;
+}
+.foot-sec-icons i {
+    color: #FFFFFF;
+    width: 48px;
+    font-size: 23px;
+    border: 2px solid red;
+    padding: 11px;
+    border-radius: 50%;
+}
+.foot-sec-icons span {
+    margin-right: 10px;
+}
+.foot-sec-btn {
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 18px 33px;
 }
 
 .footer-section-2 {
